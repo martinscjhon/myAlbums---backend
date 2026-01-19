@@ -47,31 +47,31 @@ code .
 
 Instale as dependências do projeto utilizando o gerenciador de pacotes de sua preferência:
 
-Usando npm
+Usando npm =>
 npm install
 
-Usando yarn
+Usando yarn =>
 yarn
 
 ### ▶️ Executando o projeto
 
 Após a instalação das dependências, execute o projeto com o comando:
 
-Usando npm
+Usando npm =>
 npm run dev
 
-Usando yarn
+Usando yarn =>
 yarn dev
 
-### !! Observações iniciais
+### 👉 Observações iniciais
 
 No arquivo .env, certifique-se de colocar seu usuário e senha do MYSQL. Após essa inclusão, habilite o campo TYPEORM_SYNCHRONIZE como true para sincronizar as entidades do projeto.
 
 ### 🌐 Acessando a aplicação
 
-A aplicação estará disponível no navegador no seguinte endereço:
+A aplicação estará disponível na porta: 3000
 
-👉 http://localhost:3000/
+Acesse: http://localhost:3000/health e verá a API online.
 
 ### 🛠️ Tecnologias/Ferramentas utilizadas
 
@@ -80,5 +80,6 @@ A aplicação estará disponível no navegador no seguinte endereço:
 - TypeORM
 - JWT
 - Express
-- crypto
-- typescript
+- Crypto
+- Typescript
+- Nodemon
